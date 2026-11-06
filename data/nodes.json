@@ -1,0 +1,67 @@
+[ {
+  "id" : "node-local",
+  "name" : "CloudForge Host (Local Node)",
+  "status" : "READY",
+  "cpuCores" : 10,
+  "memoryMb" : 4096,
+  "allocatedCpuCores" : 0.0,
+  "allocatedMemoryMb" : 0,
+  "ipAddress" : "127.0.0.1",
+  "localHost" : true,
+  "dockerHostUri" : "unix:///Users/chinarnemade/.docker/run/docker.sock",
+  "labels" : {
+    "tier" : "control-plane",
+    "zone" : "local-dc",
+    "env" : "development"
+  },
+  "runningContainers" : 0,
+  "createdAt" : "2026-11-06T07:20:20.791594Z",
+  "availableCpuCores" : 10.0,
+  "availableMemoryMb" : 4096,
+  "cpuUtilizationPercent" : 0.0,
+  "memoryUtilizationPercent" : 0.0
+}, {
+  "id" : "node-worker-1",
+  "name" : "Worker Node 01 (Compute)",
+  "status" : "READY",
+  "cpuCores" : 8,
+  "memoryMb" : 16384,
+  "allocatedCpuCores" : 0.0,
+  "allocatedMemoryMb" : 0,
+  "ipAddress" : "192.168.1.101",
+  "localHost" : false,
+  "dockerHostUri" : null,
+  "labels" : {
+    "tier" : "worker",
+    "zone" : "us-east-1a",
+    "env" : "production"
+  },
+  "runningContainers" : 0,
+  "createdAt" : "2026-11-06T07:20:20.791660Z",
+  "availableCpuCores" : 8.0,
+  "availableMemoryMb" : 16384,
+  "cpuUtilizationPercent" : 0.0,
+  "memoryUtilizationPercent" : 0.0
+}, {
+  "id" : "node-worker-2",
+  "name" : "Worker Node 02 (High-Mem)",
+  "status" : "READY",
+  "cpuCores" : 4,
+  "memoryMb" : 32768,
+  "allocatedCpuCores" : 0.0,
+  "allocatedMemoryMb" : 0,
+  "ipAddress" : "192.168.1.102",
+  "localHost" : false,
+  "dockerHostUri" : null,
+  "labels" : {
+    "tier" : "worker",
+    "zone" : "us-east-1b",
+    "env" : "production"
+  },
+  "runningContainers" : 0,
+  "createdAt" : "2026-11-06T07:20:20.791668Z",
+  "availableCpuCores" : 4.0,
+  "availableMemoryMb" : 32768,
+  "cpuUtilizationPercent" : 0.0,
+  "memoryUtilizationPercent" : 0.0
+} ]
